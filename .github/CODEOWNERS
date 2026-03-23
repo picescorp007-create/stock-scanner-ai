@@ -1,0 +1,32 @@
+# CODEOWNERS file for stock-scanner-ai
+# This file defines who reviews code changes in different parts of the repo
+# When someone creates a PR touching these files, the owners are auto-assigned as reviewers
+
+# Default owner for everything in the repo
+# This catches all files not matched by rules below
+* @picescorp007-create
+
+# HTML/CSS/Frontend files
+*.html @picescorp007-create
+*.css @picescorp007-create
+*.js @picescorp007-create
+
+# Python files (stock analysis scripts)
+*.py @picescorp007-create
+
+# Configuration files
+*.json @picescorp007-create
+*.yml @picescorp007-create
+*.yaml @picescorp007-create
+
+# Documentation
+*.md @picescorp007-create
+README.md @picescorp007-create
+
+# Specific directories
+/indicators/ @picescorp007-create
+/api/ @picescorp007-create
+/dashboard/ @picescorp007-create
+
+# GitHub special files
+/.github/ @picescorp007-create
